@@ -33,7 +33,7 @@ Let’s create a simple Node.js application that we can use as our example. Crea
 $ cd [path to your node-docker directory]
 $ npm init -y
 $ npm install ronin-server ronin-mocks
-$ touch server.js
+$ touch index.js
 ```
 
 Now, let’s add some code to handle our REST requests. We’ll use a mock server so we can focus on Dockerizing the application.
